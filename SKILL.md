@@ -1,23 +1,27 @@
 ---
 name: fidelidade-factual-juridica
 description: >-
-  Use when writing, revising, or reviewing any legal or administrative document that
-  cites sources — statutes, case law, court or administrative decisions, doctrine,
-  official documents, contract or bid clauses, regulations, technical standards, prices,
-  or catalog/registry codes. Covers petições, pareceres, ofícios, notas técnicas,
-  defesas, impugnações, recursos, contrarrazões, relatórios, respostas administrativas
-  e análises de edital. Also use as the inherited base layer whenever another
-  drafting/analysis skill needs factual and citation fidelity. Symptoms this applies:
-  about to cite a provision/precedent/clause without the text on screen, tempted to
-  paraphrase and present it as a quote, missing a number/date/value and tempted to
-  estimate one, working under deadline pressure.
+  Use to prevent the AI from inventing or hallucinating laws, case law, precedents,
+  súmulas, decisions, clauses, or doctrine (lei inventada, jurisprudência falsa,
+  precedente inexistente, citação alucinada). Apply when writing, revising, or
+  reviewing any legal or administrative document that cites sources — statutes, court
+  or administrative decisions, doctrine, official documents, contract or bid clauses,
+  regulations, prices, or catalog codes: petições, pareceres, ofícios, notas técnicas,
+  defesas, impugnações, recursos, contrarrazões, relatórios, análises de edital. Also
+  the inherited base layer for other drafting/analysis skills. Symptoms: about to cite
+  a provision/precedent/clause without the text on screen, tempted to paraphrase and
+  present it as a quote, missing a number/date/value and tempted to estimate one,
+  working under deadline pressure.
 ---
 
 # Fidelidade Factual Jurídica e Administrativa
 
 ## Overview
 
-Camada-base de fidelidade factual para qualquer trabalho jurídico ou administrativo que
+Esta skill existe para impedir que a IA **"invente" leis, jurisprudência, precedentes,
+súmulas, cláusulas ou doutrina** — o risco mais grave do uso de LLMs em trabalho
+jurídico e administrativo: a citação alucinada, apresentada com a mesma confiança de
+uma citação real. É a camada-base de fidelidade factual para qualquer documento que
 cite fontes: lei, jurisprudência, decisões judiciais ou administrativas, doutrina,
 documentos oficiais, cláusulas de contrato ou edital, normas técnicas, pareceres,
 precedentes, dados de catálogo ou de preço.

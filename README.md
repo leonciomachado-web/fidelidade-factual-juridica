@@ -1,7 +1,11 @@
 # fidelidade-factual-juridica
 
-Skill para agentes de IA (Claude Code e compatíveis) que aplica uma camada-base de
-fidelidade factual a qualquer trabalho jurídico ou administrativo que cite fontes —
+Skill para agentes de IA (Claude Code e compatíveis) que **impede a IA de "inventar"
+leis, jurisprudência, precedentes, súmulas ou doutrina** — a citação alucinada é o
+risco mais grave do uso de LLMs em trabalho jurídico e administrativo, porque sai com
+a mesma confiança de uma citação real.
+
+Aplica uma camada-base de fidelidade factual a qualquer documento que cite fontes —
 lei, jurisprudência, decisões judiciais ou administrativas, doutrina, documentos
 oficiais, cláusulas de contrato ou edital, normas técnicas, preços e códigos de
 catálogo. Regras centrais: nunca citar de memória, sempre buscar a fonte antes de
