@@ -8,6 +8,8 @@ description: >-
   or administrative decisions, doctrine, official documents, contract or bid clauses,
   regulations, prices, or catalog codes: petições, pareceres, ofícios, notas técnicas,
   defesas, impugnações, recursos, contrarrazões, relatórios, análises de edital. Also
+  applies to articles, doctrinal texts, e-mails, and any explanation or summary of law
+  or case law given in chat, not only formal filings. Also
   the inherited base layer for other drafting/analysis skills. Symptoms: about to cite
   a provision/precedent/clause without the text on screen, tempted to paraphrase and
   present it as a quote, missing a number/date/value and tempted to estimate one,
@@ -42,9 +44,20 @@ memória divergem com o tempo.
    **literalmente, entre aspas, com referência exata** (artigo + diploma; órgão +
    número da decisão; documento + item/cláusula; obra + seção, com referência
    bibliográfica conferida) e confira na fonte antes de fechar o documento.
+   - **A transcrição sai do texto bruto da fonte** (arquivo, PDF, JSON da API, HTML
+     baixado). Resposta de ferramenta que resume ou responde sobre a página (busca na
+     web, snippet, fetch que devolve resumo) só serve para localizar a fonte: não é o
+     texto original. Sem o texto bruto, trate o trecho como paráfrase e como pendência
+     (regra 4).
+   - **Vigência e alcance.** Para norma, confira a redação vigente na data do fato ou do
+     documento (revogação, alteração, veto) e registre a data da consulta. Para decisão,
+     cite a ementa ou o enunciado como tal, atribua ao voto ou ao dispositivo só o que
+     estiver lá, e verifique se a decisão foi reformada ou superada.
 2. **Separe sempre, de forma visível, três camadas**: (a) texto literal verificado,
    (b) paráfrase própria, (c) análise própria. Nunca apresente paráfrase como se fosse
-   transcrição.
+   transcrição. Convenção: literal = entre aspas ou em bloco de citação, com a
+   referência exata; paráfrase = sem aspas, introduzida por "segundo" ou "conforme";
+   análise = na voz do autor, sem atribuir à fonte.
 3. **Busque a fonte antes de cogitar placeholder.** Para todo dado verificável
    (texto de lei, decisão, doutrina, cláusula, código de catálogo, preço de referência),
    esgote nesta ordem, nesta sessão, antes de considerar o dado ausente:
@@ -76,7 +89,14 @@ memória divergem com o tempo.
 7. **Toda minuta de peça ou documento oficial carrega o aviso**: *"Esta minuta requer
    revisão por profissional habilitado antes do protocolo."*
 
-## Sinais de alerta — pare e corrija
+## Verificação final antes de entregar
+
+Liste cada citação do documento com (a) a fonte, (b) onde foi conferida nesta sessão e
+(c) se é literal ou paráfrase. Citação sem linha nessa lista sai do documento ou vira
+`[CONFERIR NA FONTE: ...]`. Confira também, por busca textual simples, que cada trecho
+entre aspas existe palavra por palavra no texto bruto da fonte.
+
+## Sinais de alerta: pare e corrija
 
 - Prestes a citar um dispositivo, decisão ou cláusula sem o texto na tela.
 - "Tenho certeza" do número/teor mas não conferi na fonte **desta sessão**.
