@@ -2,3 +2,15 @@ NOTAS-LOCAIS.md
 HANDOFF*.md
 _HANDOFF.md
 _historico/
+
+# Segurança (11/10/2026): nunca versionar capturas, artefatos de agente ou segredos
+.playwright-mcp/
+screenshots/
+tool-results/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+.env
+.env.*
